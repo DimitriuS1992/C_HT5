@@ -7,8 +7,8 @@ for (int i = 0; i < array.Length; i++)
     array[i] = rand.Next(-25, 25) + rand.NextDouble();
 }
 
-int min = 0;
-int max = 0;
+double min = 0;
+double max = 0;
 foreach (int i in array)  // Поиск максимального и минимального значения
 {
     if (min > i) min = i;
